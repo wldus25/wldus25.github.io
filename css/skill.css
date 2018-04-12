@@ -1,0 +1,76 @@
+
+        body { 
+    font-family: 'Nanum Gothic', 'ë‚˜ëˆ”ê³ ë”•', 'ë‹ì›€', Dotum, 'Raleway', Helvetica, Arial, sans-serif; 
+    font-size: 16px; 
+    color: #7e878f;
+    background-color: #FFFFFF; 
+    font-weight: 300;
+    overflow-x: hidden;
+}
+        
+        h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif; 
+    padding-bottom: 5px; 
+    color: #373432; 
+    line-height: 1em; 
+    font-weight: bold;
+ }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #111; }
+    /* 11 - Skills
+------------------------------------------------------------------------*/
+#skills{
+    background-color: #eff1f7;
+}
+
+/* 11 - Skill chart
+------------------------------------------------------------------------*/
+.chart-padding{
+    margin-bottom: 50px; 
+}
+.chart {
+  position: relative;
+  padding: 0 10px;
+  display: block;
+  margin: 0 auto;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent {
+  display: inline-block;
+  line-height: 170px;
+  z-index: 2;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+.chart p{
+    color: #9fa3a9;
+    font-size: 50px;
+    line-height: 170px;
+}
+.chart p sup{
+    font-size: 18px;
+    top: -1.2em;
+}
+.skills-content{
+    text-align: center;
+}
+.skills-content h3{
+    color: #2c3e50;
+    font-size: 22px;
+    font-weight: bold;
+}
+.skills-content p{
+    color: #7d878f;
+    font-size: 16px;
+    line-height: 28px;
+}
+ 
